@@ -32,7 +32,8 @@
 		<div class="clear"> </div>
 		<div class="wrap">
 		<div class="copy-right">
-			<p>&copy; 2018 Laptop Store. All Rights Reserved | Design by Group 14- HUST </p>
+			<p>&copy; 2023 All rights reserved | Design by Nguyen Manh Toan - Hanoi
+          University of Industry </p>
 		</div>
 		</div>
 		</div>
