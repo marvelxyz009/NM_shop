@@ -10,6 +10,7 @@
 		<!----start-Header---->
 	 <jsp:include page="include/homeHeader.jsp"></jsp:include>
 		<!----End-Header---->
+		<div style="text-align: center;"><img src="Frontend/img/contact.jpg" alt="" width="1200px" height="300px"></div>
 		  <jsp:include page="include/contactContent.jsp"></jsp:include>
 		   
 		<!----start-Footder---->

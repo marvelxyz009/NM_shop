@@ -2,28 +2,27 @@
 
 <div class="footer">
 			<div class="wrap">
-			<div class="section group">
+			<div class="section group"style="color: rgb(110, 110, 110);">
 				<div class="col_1_of_4 span_1_of_4">
-					<h3>Thông tin chung</h3>
-					<p>Mang đến sự lựa chọn tốt nhất</p>
-					<p>Mang đến sự lựa chọn tốt nhất</p>
+					<h4>Thông tin chung</h4>
+					
 				</div>
 				<div class="col_1_of_4 span_1_of_4">
-					<h3>Latest-News</h3>
-					<p>Bphone 3 is coming...</p>
-					<p>Bphone 3 is coming...</p>
+					<h4>Latest-News</h4>
+					<p>Laptop MSI 100Gd ...</p>
+					<p>PC Gaming sale off 20%</p>
 				</div>
 			  	<div class="col_1_of_4 span_1_of_4">
-					<h3>Địa điểm cửa hàng</h3>
-					<p> 1000 Giải Phóng-Hai Bà Trưng-Hà Nội</p>
-					<p> 1000 Giải Phóng-Hai Bà Trưng-Hà Nội</p>
+					<h4>Địa điểm cửa hàng</h4>
+					<p> Mễ Trì Hạ, Nam Từ Liêm, Hà Nội</p>
+					<p> Nhổn, Bắc Từ Liêm, Hà Nội</p>
 				</div> 
 				<div class="col_1_of_4 span_1_of_4 footer-lastgrid">
-					<h3>Follow Us:</h3>
+					<h4>Follow Us:</h4>
 					 <ul>
-					 	<li><a href="#"><img src="Frontend/img/twitter.png" title="twitter" />Twitter</a></li>
-					 	<li><a href="#"><img src="Frontend/img/facebook.png" title="Facebook" />Facebook</a></li>
-					 	<li><a href="#"><img src="Frontend/img/rss.png" title="Rss" />Rss</a></li>
+					 	<li><a href="#"><img src="Frontend/img/twitter.png" title="twitter" width="30px" />Twitter</a></li>
+					 	<li><a href="#"><img src="Frontend/img/facebook.png" title="Facebook "width="30px" />Facebook</a></li>
+					 	<li><a href="#"><img src="Frontend/img/rss.png" title="Rss" width="30px"/>Rss</a></li>
 					 </ul>
 				</div>
 			</div>

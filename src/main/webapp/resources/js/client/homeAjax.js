@@ -10,7 +10,7 @@ function addToCart(id)
 					window.alert("Sản phẩm đang hết hàng, quý khách vui lòng quay lại sau");	
 				}else
 				{
-					window.alert("Đã thêm sản phẩm vào giỏ hàng");
+					window.alert("Đã thêm sản phẩm vào Giỏ hàng");
 				}		
 			},
 			error : function(e){
@@ -42,19 +42,19 @@ $(document).ready(function(){
 						{
 							content = '';
 							content = '<div class="grid_1_of_4 images_1_of_4 products-info"><a href="sp?id='+sanpham.id+'">' +
-									'<img style="width: 300px; height: 238px" src="/laptopshop/img/'+sanpham.id+'.png">' +
+									'<img style="width: 300px; height: 200px" src="/laptopshop/img/'+sanpham.id+'.png">' +
 									'<h3 style="font-weight: bold;">'+sanpham.tenSanPham+'</h3></a>' +
-									'<h3>'+accounting.formatMoney(sanpham.donGia)+' VND</h3>'+
-									'<button onClick="addToCart('+sanpham.id+')" class="btn btn-warning"><span class= "glyphicon glyphicon-shopping-cart pull-center"></span> Giỏ hàng</button>'+
+									'<h3 style="color: red;">'+accounting.formatMoney(sanpham.donGia)+' VND</h3>'+
+									'<button onClick="addToCart('+sanpham.id+')" class="btn btn-primary"><span class= "glyphicon glyphicon-shopping-cart pull-center"></span> + Giỏ hàng</button>'+
 									'<h3></h3>'+
 									'</div>';
 						}else 
 						{
 							content = content+'<div class="grid_1_of_4 images_1_of_4 products-info"><a href="sp?id='+sanpham.id+'">' +
-									'<img style="width: 300px; height: 238px" src="/laptopshop/img/'+sanpham.id+'.png">' +
+									'<img style="width: 300px; height: 200px" src="/laptopshop/img/'+sanpham.id+'.png">' +
 									'<h3 style="font-weight: bold;">'+sanpham.tenSanPham+'</h3><a/>' +
-									'<h3>'+accounting.formatMoney(sanpham.donGia)+' VND</h3>'+
-									'<button onClick="addToCart('+sanpham.id+')" class="btn btn-warning"><span class= "glyphicon glyphicon-shopping-cart pull-center"></span> Giỏ hàng</button>'+
+									'<h3 style="color: red;">'+accounting.formatMoney(sanpham.donGia)+' VND</h3>'+
+									'<button onClick="addToCart('+sanpham.id+')" class="btn btn-primary"><span class= "glyphicon glyphicon-shopping-cart pull-center"></span> + Giỏ hàng</button>'+
 									'<h3></h3>'+
 									'</div>';
 							if(i%4==3)
@@ -69,10 +69,10 @@ $(document).ready(function(){
 						{
 							content = '';
 							content = '<div class="grid_1_of_4 images_1_of_4 products-info"><a href="sp?id='+sanpham.id+'">' +
-									'<img style="width: 300px; height: 238px" src="/laptopshop/img/'+sanpham.id+'.png">' +
+									'<img style="width: 300px; height: 200px" src="/laptopshop/img/'+sanpham.id+'.png">' +
 									'<h3 style="font-weight: bold;">'+sanpham.tenSanPham+'</h3>></a>' +
-									'<h3>'+accounting.formatMoney(sanpham.donGia)+' VND</h3>'+
-									'<button onClick="addToCart('+sanpham.id+')" class="btn btn-warning"><span class= "glyphicon glyphicon-shopping-cart pull-center"></span> Giỏ hàng</button>'+
+									'<h3 style="color: red;">'+accounting.formatMoney(sanpham.donGia)+' VND</h3>'+
+									'<button onClick="addToCart('+sanpham.id+')" class="btn btn-primary"><span class= "glyphicon glyphicon-shopping-cart pull-center"></span> + Giỏ hàng</button>'+
 									'<h3></h3>'+
 									'</div>';
 							content = section + content + endsection;
@@ -80,10 +80,10 @@ $(document).ready(function(){
 						}else
 						{
 							content = content+'<div class="grid_1_of_4 images_1_of_4 products-info"><a href="sp?id='+sanpham.id+'">' +
-									'<img style="width: 300px; height: 238px" src="/laptopshop/img/'+sanpham.id+'.png">' +
+									'<img style="width: 300px; height: 200px" src="/laptopshop/img/'+sanpham.id+'.png">' +
 									'<h3 style="font-weight: bold;">'+sanpham.tenSanPham+'</h3></a>' +
-									'<h3>'+accounting.formatMoney(sanpham.donGia)+' VND</h3>'+
-									'<button  onClick="addToCart('+sanpham.id+')" class="btn btn-warning"><span class= "glyphicon glyphicon-shopping-cart pull-center"></span> Giỏ hàng</button>'+
+									'<h3 style="color: red;">'+accounting.formatMoney(sanpham.donGia)+' VND</h3>'+
+									'<button  onClick="addToCart('+sanpham.id+')" class="btn btn-primary"><span class= "glyphicon glyphicon-shopping-cart pull-center"></span> + Giỏ hàng</button>'+
 									'<h3></h3>'+
 									'</div>';
 							content = section + content + endsection;

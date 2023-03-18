@@ -46,7 +46,7 @@
         				</select>
         				</div>
         				<div class="inline">
-        				<input class="search-submit" type="submit" value="Sắp xếp" >
+        				<input style="background-color: skyblue;" class="search-submit" type="submit" value="Sắp xếp" >
         				</div>
         				</form>
     				</div>   
@@ -185,7 +185,7 @@
 								</c:forEach>				
         					</select>
         				</div>
-        					<input class="search-submit" type="submit" value="Lọc sản phẩm">
+        					<input style="background-color: skyblue;" class="search-submit" type="submit" value="Lọc sản phẩm">
 						</form>
 						
 		    	</div>

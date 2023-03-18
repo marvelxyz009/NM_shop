@@ -13,13 +13,14 @@
     line-height: 10px;
     margin-left: 5px;
     border: solid 1px #BBBBBB;
+    border-radius: 5px;
     text-decoration: none;
     color: #333;
 }
 
 .paging a.current, .paging a:hover {
 
-    background: #222;
+    background: dodgerblue;
     color: white;
 
 }

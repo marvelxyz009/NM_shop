@@ -31,17 +31,17 @@ html
 <br>
 <div class="container">
   <div class="row">
-  <h2 style="">  QUẢN LÝ GIỎ HÀNG</h2> <br>
+  <h4 style="color: darkblue; font-size: larger;">  GIỎ HÀNG </h4> <br>
   <div class="col-10">
   <table class="table-cart-checkout mytable table-convert-price" >
- <tr>
-		<td>STT</td>
-		<td>Ảnh</td>
-		<td>Tên sản phẩm</td>
-		<td>Đơn giá</td>
-		<td>Số lượng</td>
-		<td>Tổng</td>
-		<td>Xóa</td>
+ <tr style="color: aliceblue;">
+		<th>STT</th>
+		<th>Ảnh</th>
+		<th>Tên sản phẩm</th>
+		<th>Đơn giá</th>
+		<th>Số lượng</th>
+		<th>Tổng</th>
+		<th>Xóa</th>
 </tr>
 <c:forEach var="sanpham" items="${cart}" varStatus="loop">			
 <tr class="cart_line" id="item${sanpham.id}">
@@ -82,7 +82,7 @@ html
 		
 		
 		<td colspan="4">
-			<p class="cart_tongdonhang">Tổng giá trị đơn hàng : <span id="ordertotal"></span> VND</p>
+			<p class="cart_tongdonhang" style="font-size: larger;"><b>Tổng giá trị đơn hàng : </b><span id="ordertotal"></span> VND</p>
 		</td>
 </tr>
 

@@ -47,17 +47,17 @@ uri="http://java.sun.com/jsp/jstl/core"%>
   <body>
     <div class="wrap">
       <!----start-Header---->
-      <div class="header">
+      <div class="header" style="display: flex; align-items: center; justify-content:space-between;">
         <div class="search-bar">
           <form action="/laptopshop/search">
-            <input type="text" name="name" /><input
+            <input type="text" name="name" />
+            <input
               type="submit"
               value="Search"
             />
           </form>
         </div>
         <div class="clear"></div>
-
         <div class="header-top-nav">
           <c:if test="${pageContext.request.userPrincipal.name != null}">
             <ul>
@@ -65,15 +65,15 @@ uri="http://java.sun.com/jsp/jstl/core"%>
 
               <!-- 	<li><a href="<%=request.getContextPath()%>/checkout"">Thanh toán</a></li> -->
               <li>
-                <a href="<%=request.getContextPath()%>/account">Tài khoản</a>
+                <a style="color: crimson;" href="<%=request.getContextPath()%>/account">Tài khoản</a>
               </li>
               <li>
                 <a href="<%=request.getContextPath()%>/cart"
-                  ><span>Giỏ hàng&nbsp;&nbsp;: </span></a
+                  ><span style="color: crimson;">Giỏ hàng&nbsp;&nbsp;</span></a
                 ><span class="glyphicon glyphicon-shopping-cart"></span>
               </li>
               <li>
-                <a href="<%=request.getContextPath()%>/logout"> Đăng xuất</a>
+                <a style="color: crimson;" href="<%=request.getContextPath()%>/logout"> Đăng xuất</a>
               </li>
             </ul>
           </c:if>
@@ -94,11 +94,10 @@ uri="http://java.sun.com/jsp/jstl/core"%>
             </ul>
           </c:if>
         </div>
-        <div class="clear"></div>
       </div>
     </div>
     <div class="clear"></div>
-    <div class="top-header">
+    <div class="top-header" style="margin-top: 0;">
       <div class="wrap">
         <!----start-logo---->
         <div class="logo">
@@ -128,16 +127,16 @@ uri="http://java.sun.com/jsp/jstl/core"%>
             </li>
             <li>
               <a href="<%=request.getContextPath()%>/shipping"
-                >Miễn phí vận chuyển</a
+                >Vận chuyển</a
               >
             </li>
             <li>
               <a href="<%=request.getContextPath()%>/guarantee"
-                >Bảo hành tận nơi</a
+                >Bảo hành </a
               >
             </li>
 
-            <li><a href="<%=request.getContextPath()%>/contact">Liên hệ</a></li>
+            <li><a href="<%=request.getContextPath()%>/contact">Liên hệ với chúng tôi</a></li>
           </ul>
         </div>
         <div class="clear"></div>

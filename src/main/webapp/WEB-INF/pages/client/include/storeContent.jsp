@@ -37,33 +37,33 @@
 		    		<c:if test = "${loop.index != list.size()-1}">
          				<c:if test = "${loop.index%4 == 0}">
          					<div class="section group">
-         					<div class="grid_1_of_4 images_1_of_4 products-info" style=" width: 232px; height: 400px;"><a href="sp?id=${sanpham.id}">
-									<img style="width: 225px; height: 230px" src="/laptopshop/img/${sanpham.id}.png">
+         					<div class="grid_1_of_4 images_1_of_4 products-info" style=" width: 232px; height: 360px;"><a href="sp?id=${sanpham.id}">
+									<img style="width: 250px; height: 200px" src="/laptopshop/img/${sanpham.id}.png">
 									<h3 style="font-weight: bold; height: 43.2px">${sanpham.tenSanPham}</h3></a>
 									<h3 class="changeToVND">${sanpham.donGia}</h3>
-									<button onClick="addToCart(${sanpham.id})" class="btn btn-warning"><span class= "glyphicon glyphicon-shopping-cart pull-center"></span> Giỏ hàng</button>
+									<button onClick="addToCart(${sanpham.id})" class="btn btn-primary"><span class= "glyphicon glyphicon-shopping-cart pull-center"></span> + Giỏ hàng</button>
 									<h3></h3>
 							</div>
          				</c:if>
          				
          				<c:if test = "${loop.index%4 != 0}">
          					<c:if test = "${loop.index%4 == 3}">
-         						<div class="grid_1_of_4 images_1_of_4 products-info" style=" width: 232px; height: 400px;"><a href="sp?id=${sanpham.id}">
-									<img style="width: 225px; height: 230px"src="/laptopshop/img/${sanpham.id}.png">
+         						<div class="grid_1_of_4 images_1_of_4 products-info" style=" width: 232px; height: 360px;"><a href="sp?id=${sanpham.id}">
+									<img style="width: 250px; height: 200px"src="/laptopshop/img/${sanpham.id}.png">
 									<h3 style="font-weight: bold;height: 44px">${sanpham.tenSanPham}</h3></a>
 									<h3 class="changeToVND">${sanpham.donGia}</h3>
-									<button onClick="addToCart(${sanpham.id})" class="btn btn-warning"><span class= "glyphicon glyphicon-shopping-cart pull-center"></span> Giỏ hàng</button>
+									<button onClick="addToCart(${sanpham.id})" class="btn btn-primary"><span class= "glyphicon glyphicon-shopping-cart pull-center"></span> + Giỏ hàng</button>
 									<h3></h3>
 							</div>
 								</div>
 							</c:if>
 							
 							<c:if test = "${loop.index%4 != 3}">
-								<div class="grid_1_of_4 images_1_of_4 products-info" style=" width: 232px; height: 400px;"><a href="sp?id=${sanpham.id}">
-									<img style="width: 225px; height: 230px" src="/laptopshop/img/${sanpham.id}.png">
+								<div class="grid_1_of_4 images_1_of_4 products-info" style=" width: 232px; height: 360px;"><a href="sp?id=${sanpham.id}">
+									<img style="width: 250px; height: 200px" src="/laptopshop/img/${sanpham.id}.png">
 									<h3 style="font-weight: bold;height: 44px">${sanpham.tenSanPham}</h3></a>
 									<h3 class="changeToVND">${sanpham.donGia}</h3>
-									<button onClick="addToCart(${sanpham.id})" class="btn btn-warning"><span class= "glyphicon glyphicon-shopping-cart pull-center"></span> Giỏ hàng</button>
+									<button onClick="addToCart(${sanpham.id})" class="btn btn-primary"><span class= "glyphicon glyphicon-shopping-cart pull-center"></span> + Giỏ hàng</button>
 									<h3></h3>
 							</div>
 							</c:if>
@@ -72,21 +72,21 @@
      				<c:if test = "${loop.index == list.size()-1}">
      					<c:if test = "${loop.index%4 == 0}">
      						<div class="section group">
-         					<div class="grid_1_of_4 images_1_of_4 products-info" style=" width: 232px; height: 400px;"><a href="sp?id=${sanpham.id}">
-									<img style="width: 225px; height: 230px" src="/laptopshop/img/${sanpham.id}.png">
+         					<div class="grid_1_of_4 images_1_of_4 products-info" style=" width: 232px; height: 360px;"><a href="sp?id=${sanpham.id}">
+									<img style="width: 250px; height: 200px" src="/laptopshop/img/${sanpham.id}.png">
 									<h3 style="font-weight: bold;height: 44px">${sanpham.tenSanPham}</h3></a>
 									<h3 class="changeToVND">${sanpham.donGia}</h3>
-									<button onClick="addToCart(${sanpham.id})" class="btn btn-warning"><span class= "glyphicon glyphicon-shopping-cart pull-center"></span> Giỏ hàng</button>
+									<button onClick="addToCart(${sanpham.id})" class="btn btn-primary"><span class= "glyphicon glyphicon-shopping-cart pull-center"></span> + Giỏ hàng</button>
 									<h3></h3>
 							</div>
 							</div>
      					</c:if>
      					<c:if test = "${loop.index%4 != 0}">
-     						<div class="grid_1_of_4 images_1_of_4 products-info" style=" width: 232px; height: 400px;"><a href="sp?id=${sanpham.id}">
-									<img style="width: 225px; height: 230px" src="/laptopshop/img/${sanpham.id}.png">
+     						<div class="grid_1_of_4 images_1_of_4 products-info" style=" width: 232px; height: 360px;"><a href="sp?id=${sanpham.id}">
+									<img style="width: 250px; height: 200px" src="/laptopshop/img/${sanpham.id}.png">
 									<h3 style="font-weight: bold;height: 44px">${sanpham.tenSanPham}</h3></a>
 									<h3 class="changeToVND">${sanpham.donGia}</h3>
-									<button onClick="addToCart(${sanpham.id})" class="btn btn-warning"><span class= "glyphicon glyphicon-shopping-cart pull-center"> </span>Giỏ hàng</button>
+									<button onClick="addToCart(${sanpham.id})" class="btn btn-primary"><span class= "glyphicon glyphicon-shopping-cart pull-center"> </span>+ Giỏ hàng</button>
 									<h3></h3>
 							</div>
 							</div>
@@ -126,7 +126,7 @@
     
 		    	</div>
 		    	<div class="content-sidebar">
-		    		<h4>Lọc sản phẩm</h4>		    			
+		    		<h4 style="color: dodgerblue;"><b>Lọc sản phẩm</b></h4>		    			
 						<form>
 						<input type="hidden" name="name" value="${name}">
         				<p>Mức giá</p>
@@ -184,7 +184,7 @@
         				</div>
         				</c:if>
         					<input type="hidden" name="brand" value="${brand}">
-        					<input class="search-submit" type="submit" value="Lọc sản phẩm">
+        					<input style="background-color: skyblue;" class="search-submit" type="submit" value="Lọc sản phẩm">
 						</form>
 						
 		    	</div>

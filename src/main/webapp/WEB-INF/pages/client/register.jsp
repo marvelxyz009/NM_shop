@@ -104,7 +104,7 @@
 	<div class="login-page">
 		<div class="form">
 			<form:form method="POST" action='register' modelAttribute="newUser">
-				<h2 class="form-signin-heading" style="text-align: center">LaptopShop - Đăng ký tài khoản</h2>
+				<h2 class="form-signin-heading" style="text-align: center; color: white;">Đăng ký tài khoản</h2>
 				<hr/>
 				<div class="form-group">
 					<form:input type="email" path="email" class="form-control"
@@ -143,7 +143,7 @@
 					<form:errors class="error" path="diaChi"></form:errors>
 				</div>
 				<input id="submit" type="submit" value="ĐĂNG KÝ">
-				<p class="message" style="font-size: 18; padding-top:10px"> Đã có tài khoản? <a href="<c:url value='/login'/> ">Đăng nhập</a></p>
+				<p class="message" style="font-size: 18; padding-top:10px; color: white"> Đã có tài khoản? <a href="<c:url value='/login'/> ">Đăng nhập</a></p>
 			</form:form>
 		</div>
 	</div>

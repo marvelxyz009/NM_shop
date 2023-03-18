@@ -1,11 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
-
 .login-page {
   width: 520px;
   padding: 6% 0 0;
   margin: auto;
 }
 .form {
+  background-image: url(./form.jpg)!important;
+  background-size: contain !important;
   position: relative;
   z-index: 1;
   background: #FFFFFF;
@@ -94,6 +95,7 @@
   color: #EF3B3A;
 }
 body {
+  background-image: url(./bg_login.jpg)!important;
   background: dodgerblue; /* fallback for old browsers */
   background: -webkit-linear-gradient(right, dodgerblue, deepskyblue);
   background: -moz-linear-gradient(right, dodgerblue, deepskyblue);
@@ -101,7 +103,7 @@ body {
   background: linear-gradient(to left, dodgerblue, deepskyblue);
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;      
+  -moz-osx-font-smoothing: grayscale;   
 }
 
 .error {

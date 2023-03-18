@@ -58,20 +58,20 @@
 			<input size="27" name="sdtNhanHang" required>
 			
 			
-			<p style="line-height:2;">Địa chỉ(số nhà, đường, tỉnh thành) *</p>
+			<p style="line-height:2;">Địa chỉ *</p>
 			<textarea rows="5" cols="29" name="diaChiNhan" required></textarea>
 
 			<br><br>
 			<input type="hidden" id="tongGiaTri" name="tongGiaTri">
 		</div>
 		
-		<div class="col-md-6">
+		<div class="col-md-9">
 			<br>
 			<p class="border-p" style="line-height:1.5;"><b>Giỏ hàng</b></p>
 			<br>
 			
 				<table class="table-cart-checkout mytable">
-					 <tr>
+					 <tr style="color: aliceblue;">
 						    <th>Ảnh</th>
 						    <th>Tên sản phẩm</th>
 						    <th>Đơn giá</th>
@@ -102,7 +102,7 @@
 			
 			
 			<br>
-			<p>Tổng giá trị đơn hàng:     <b id="ordertotal"> </b></p>
+			<p style="color: red;">Tổng giá trị đơn hàng:     <b id="ordertotal"> </b></p>
 			<br>
 			 &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;
 			<a href="<%=request.getContextPath()%>/cart" class="btn btn-primary">Quay lại giỏ hàng</a>

@@ -50,7 +50,7 @@
 		
 		
 					<table class="table-cart-checkout mytable">
-					 <tr>
+					 <tr style="color: aliceblue;">
 						    <th>Ảnh</th>
 						    <th>Tên sản phẩm</th>
 						    <th>Đơn giá</th>

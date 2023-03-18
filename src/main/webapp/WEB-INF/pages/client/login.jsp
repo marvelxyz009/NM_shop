@@ -20,8 +20,8 @@ contentType="text/html" pageEncoding="UTF-8"%>
     <c:set var="contextPath" value="${pageContext.request.contextPath}" />
     <div class="login-page">
       <div class="form">
-        <h2 class="form-signin-heading" style="text-align: center">
-          LaptopShop - Đăng nhập
+        <h2 class="form-signin-heading" style="text-align: center; color: white">
+          Đăng nhập
         </h2>
         <hr />
         <c:if test="${param.error != null}">
@@ -63,7 +63,7 @@ contentType="text/html" pageEncoding="UTF-8"%>
             value="${_csrf.token}"
           />
 
-          <label style="padding-right: 130px; font-size: 15px" id="label">
+          <label style="padding-right: 130px; font-size: 15px; color: white" id="label">
             <input
               type="checkbox"
               class="form-check-input"
@@ -74,7 +74,7 @@ contentType="text/html" pageEncoding="UTF-8"%>
           >
 
           <input id="submit" type="submit" value="ĐĂNG NHẬP" />
-          <p class="message" style="font-size: 18; padding-top: 10px">
+          <p class="message" style="font-size: 18; padding-top: 10px; color: white" >
             Chưa có tài khoản?
             <a href="<c:url value='/register'/> ">Tạo tài khoản mới</a>
           </p>
