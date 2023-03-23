@@ -24,7 +24,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-1"></div>
-			<div class="col-md-10">
+			<div class="col-md-12">
 				<br>
 				<p style="font-size: 20px">
 					<b>Thông tin tài khoản:</b>
@@ -48,7 +48,7 @@
 				</h3>
 				<br>
 				<table class="table-cart-checkout mytable">
-					<tr>
+					<tr style="color: aliceblue;">
 						<th>Mã đơn hàng</th>
 						<th>Ngày mua</th>
 						<th>Ngày giao hàng</th>

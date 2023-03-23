@@ -19,7 +19,7 @@
 			<br>
 			
 			<table class="table-cart-checkout mytable">
-					 <tr>
+					 <tr style=" color: aliceblue;">
 						    <th>Theo giá trị đơn hàng</th>
 						    <th>Số Km được Miễn Phí</th>
 						    <th>Thời gian đáp ứng</th>
